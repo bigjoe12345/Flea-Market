@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="24dp"
+    tools:context="page.page1.RegisterMainActivity">
+
+    <!-- 顶部标题区域 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Create_Account"
+            android:textColor="#3F51B5"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Signup_Hint"
+            android:textColor="#666666"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- 学号输入 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F5F5F5"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical"
+        android:backgroundTint="#F5F5F5">
+
+        <ImageView
+            android:id="@+id/pic_user"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/user"
+            android:layout_marginEnd="12dp"
+            app:tint="#3F51B5" />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/Student_Id"
+            android:textSize="16sp"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            android:textColor="#000000"
+            android:textColorHint="#999999" />
+
+    </LinearLayout>
+
+    <!-- 密码输入 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F5F5F5"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical"
+        android:backgroundTint="#F5F5F5">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/passwd"
+            android:layout_marginEnd="12dp"
+            app:tint="#3F51B5" />
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/Password_Hint"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:background="@android:color/transparent"
+            android:textColor="#000000"
+            android:textColorHint="#999999" />
+
+    </LinearLayout>
+
+    <!-- 确认密码输入 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F5F5F5"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_vertical"
+        android:backgroundTint="#F5F5F5">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/passwd"
+            android:layout_marginEnd="12dp"
+            app:tint="#3F51B5" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/Password_Check"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:background="@android:color/transparent"
+            android:textColor="#000000"
+            android:textColorHint="#999999" />
+
+    </LinearLayout>
+
+    <!-- 注册按钮 -->
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/Signup"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 取消按钮 -->
+    <Button
+        android:id="@+id/toReturn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/Cancel"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:background="#E8EAF6"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 底部提示 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Already_Have"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Login_Now"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

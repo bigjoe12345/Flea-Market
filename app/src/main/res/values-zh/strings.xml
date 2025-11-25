@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="User_Center">用户中心</string>
+    <string name="User_Info">用户信息</string>
+    <string name="My_Post">我的发布</string>
+    <string name="Change_Password">修改密码</string>
+    <string name="About">关于我们</string>
+    <string name="LogOut">登出</string>
+    <string name="HomePage">首页</string>
+    <string name="Post_Item">发布闲置</string>
+    <string name="Create_Account">注册账号</string>
+    <string name="Signup_Hint">请填写信息以注册</string>
+    <string name="Student_Id">请输入学号</string>
+    <string name="Password_Hint">请输入密码</string>
+    <string name="Password_Check">确认密码</string>
+    <string name="Signup">注册</string>
+    <string name="Cancel">取消</string>
+    <string name="Already_Have">已有账号?</string>
+    <string name="Login_Now">立即登录</string>
+    <string name="Edit_Info">修改用户信息</string>
+    <string name="User_Account">用户账号</string>
+    <string name="User_Name">姓名</string>
+    <string name="User_Major">专业</string>
+    <string name="Phone_Number">联系方式</string>
+    <string name="Address">地址</string>
+    <string name="Edit_Name">请输入姓名</string>
+    <string name="Edit_Major">请输入你的专业</string>
+    <string name="Edit_Phone">请输入联系方式</string>
+    <string name="Edit_qq">输入QQ号</string>
+    <string name="Edit_Address">请输入地址</string>
+    <string name="Check_Info">确认信息</string>
+    <string name="Back">返回</string>
+    <string name="Confirm">确认</string>
+    <string name="Add_Comment">添加评论</string>
+    <string name="Comment_Hint">在此留下你的评论...</string>
+    <string name="Comment_Submit">提交评论</string>
+    <string name="Sports_Item">运动用品</string>
+    <string name="Edit">编辑信息</string>
+    #about_main
+    <string name="about_us">关于我们</string>
+    <string name="app_name">校园易</string>
+    <string name="sub_title">校园易 - 让闲置物品流动起来</string>
+    <string name="app_intro">应用介绍</string>
+    <string name="introduction">校园易，专为大学生打造的闲置交易平台。告别繁琐的群聊和贴吧，让闲置物品在校园内轻松流转。我们连接买卖双方，让每一件闲置都能找到新主人，让每一次交易都简单安心。</string>
+    <string name="function_features">功能特点</string>
+    <string name="feature_main">• 便捷的商品发布\n• 智能的商品分类\n• 安全的交易环境\n• 校园专属平台</string>
+    <string name="enter_main_page">进入主页</string>
+    #changepwd
+    <string name="password_sub_title">请谨慎修改您的密码</string>
+    <string name="current_user">当前用户：</string>
+    <string name="old_password">旧密码</string>
+    <string name="old_password_explain">请输入旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="new_password_explain">请输入新密码</string>
+    <string name="new_password_confirm">确认密码</string>
+    <string name="new_password_confirm_inform">请确认新密码</string>
+    <string name="change_confirm">确认修改</string>
+    #kind page2-4
+    <string name="sport_item">体育用品</string>
+    <string name="household_goods">生活用品</string>
+    <string name="electronic_devices">电子产品</string>
+    <string name="study_stuffs">学习用品</string>
+    #login_main
+    <string name="welcome">欢迎回来</string>
+    <string name="login_inform">请登录您的账户</string>
+    <string name="login_number">请输入用户账号</string>
+    <string name="password_submit">请输入用户密码</string>
+    <string name="log_in">登 录</string>
+    <string name="question">还没有账户？</string>
+    <string name="regist_button">立即注册</string>
+    #main
+    <string name="my_submission">我的发布</string>
+    <string name="refresh">刷新</string>
+    <string name="submit_item">发布商品</string>
+    <string name="submit_inform">点击上传商品图片</string>
+    <string name="item_title">商品标题</string>
+    <string name="item_name">请输入商品标题</string>
+    <string name="item_classify">商品分类</string>
+    <string name="item_price">商品价格</string>
+    <string name="price_inform">请输入商品价格</string>
+    <string name="contact">联系方式</string>
+    <string name="contact_inform">请输入联系电话</string>
+    <string name="item_description">商品描述</string>
+    <string name="item_description_inform">请输入商品描述信息</string>
+    <string name="Comment">评论</string>
+    <string name="Delete_Hint">长按以删除</string>
+    #AddItem
+    <string name="title_alarm">需要输入商品标题</string>
+    <string name="price_alarm">需要输入商品价格</string>
+    <string name="contact_alarm">需要输入联系方式</string>
+    <string name="description_alarm">需要输入商品描述</string>
+    <string name="select_pic">需要选择商品图片</string>
+    <string name="submit_success">发布成功</string>
+    <string name="submit_failed">发布失败，请重试</string>
+    <string name="failed">发布商品失败</string>
+    <string name="fail">发布失败：</string>
+    <string name="load_fail">无法获取图片路径</string>
+    <string name="select_fail">图片选择失败</string>
+    <string name="select_success">图片选择成功</string>
+    <string name="download_fail">图片加载失败，请重新选择</string>
+    <string name="download_failed">图片加载失败</string>
+    <string name="authority_command">需要相册权限才能选择图片</string>
+    #changepwd
+    <string name="login_remind">请先登录！</string>
+    <string name="userdata">用户数据</string>
+    <string name="old_password_remind">请输入旧密码！</string>
+    <string name="new_password_remind">请输入新密码！</string>
+    <string name="wrong_password">两次密码不一致！</string>
+    <string name="old_wrong">用户旧密码错误！</string>
+    <string name="change_success">修改成功</string>
+    <string name="change_fail">修改失败</string>
+    #item_info
+    <string name="commodity_id">商品的id是</string>
+    <string name="comment_success">评论成功</string>
+    #LoginMainActivity
+    <string name="account_command">请输入用户账号！</string>
+    <string name="password_command">请输入用户密码！</string>
+    <string name="password_wrong">用户密码错误！</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    #MyItems
+    <string name="pub_remind">您还没有发布过商品</string>
+    <string name="delete_commodity">您只能删除自己发布的商品</string>
+    <string name="delete_success">删除成功，请刷新</string>
+    <string name="delete_fail">删除失败</string>
+    <string name="logout_success">退出成功</string>
+    #Register
+    <string name="id_remind">请输入用户学号！</string>
+    <string name="id_exit">学号已存在！</string>
+    <string name="regist_success">注册成功</string>
+    <string name="regist_failed">注册失败</string>
+    #usermsg
+    <string name="user_unknown">用户不存在！</string>
+    <string name="inform_failed">无法显示个人信息</string>
+    #LanguageSetting
+    <string name="language_setting">语言设置/LANGUAGE SETTING</string>
+    <string name="select_language">Select Language</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese">中文</string>
+    <string name="Whole_mess">请填写完整信息</string>
+    <string name="comment_null">评论内容不能为空</string>
+</resources>
